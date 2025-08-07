@@ -1,190 +1,35 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SMA AZMANAWADI - Pendidikan Terdepan di Lombok</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts: Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome untuk ikon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        /* Custom scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #f1f1f1;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #888;
-            border-radius: 4px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #555;
-        }
-    </style>
-</head>
-<body class="bg-gray-50 text-gray-800">
+# Judul Website
+title: SMA AZMANAWADI - Pendidikan Terdepan di Lombok
 
-    <!-- Navbar -->
-    <header class="bg-white shadow-sm sticky top-0 z-50">
-        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-gray-900">
-                SMA <span class="text-green-600">AZMANAWADI</span>
-            </a>
-            <ul class="hidden md:flex space-x-6 text-gray-600">
-                <li><a href="#beranda" class="hover:text-green-600 font-semibold">Beranda</a></li>
-                <li><a href="#tentang" class="hover:text-green-600 font-semibold">Tentang Kami</a></li>
-                <li><a href="#ekstrakurikuler" class="hover:text-green-600 font-semibold">Ekstrakurikuler</a></li>
-                <li><a href="#kontak" class="hover:text-green-600 font-semibold">Kontak</a></li>
-            </ul>
-            <!-- Tombol menu untuk mobile -->
-            <button id="menu-button" class="md:hidden text-gray-600 focus:outline-none">
-                <i class="fas fa-bars text-xl"></i>
-            </button>
-        </nav>
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg py-2">
-            <ul class="flex flex-col items-center space-y-2 text-gray-700">
-                <li><a href="#beranda" class="hover:text-green-600 font-semibold block w-full py-2 text-center">Beranda</a></li>
-                <li><a href="#tentang" class="hover:text-green-600 font-semibold block w-full py-2 text-center">Tentang Kami</a></li>
-                <li><a href="#ekstrakurikuler" class="hover:text-green-600 font-semibold block w-full py-2 text-center">Ekstrakurikuler</a></li>
-                <li><a href="#kontak" class="hover:text-green-600 font-semibold block w-full py-2 text-center">Kontak</a></li>
-            </ul>
-        </div>
-    </header>
+# Konten Halaman Depan (Hero Section)
+hero_heading: "Selamat Datang di <span class='text-green-600'>SMA AZMANAWADI</span>"
+hero_subheading: "Mencetak generasi cerdas, berkarakter, dan berdaya saing global melalui penguatan Bahasa Inggris dan keterampilan praktis."
 
-    <main>
-        <!-- Hero Section -->
-        <section id="beranda" class="bg-gray-100 py-16 md:py-24 text-center">
-            <div class="container mx-auto px-4">
-                <h1 class="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
-                    Selamat Datang di <span class="text-green-600">SMA AZMANAWADI</span>
-                </h1>
-                <p class="mt-4 text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-                    Mencetak generasi cerdas, berkarakter, dan berdaya saing global melalui penguatan Bahasa Inggris dan keterampilan praktis.
-                </p>
-                <a href="#ekstrakurikuler" class="mt-8 inline-block px-8 py-3 bg-green-600 text-white font-semibold rounded-full shadow-lg hover:bg-green-700 transition duration-300">
-                    Jelajahi Program Kami
-                </a>
-            </div>
-        </section>
+# Konten Tentang Kami (About Section)
+about_heading: "Tentang SMA AZMANAWADI"
+about_text_1: "SMA AZMANAWADI berkomitmen untuk memberikan pendidikan berkualitas yang tidak hanya berfokus pada kurikulum akademik, tetapi juga pada pengembangan karakter dan keterampilan hidup. Terletak di jantung Lombok Timur, sekolah kami adalah tempat ideal bagi siswa untuk tumbuh dan berprestasi."
+about_text_2: "Kami percaya bahwa Bahasa Inggris adalah kunci untuk membuka pintu dunia, sehingga kami mengintegrasikannya ke dalam setiap aspek pembelajaran. Namun, kami juga memastikan siswa mendapatkan fondasi yang kuat di semua mata pelajaran lainnya."
+about_image: "https://placehold.co/600x400/10B981/ffffff?text=SMA+AZMANAWADI" # Ganti URL ini dengan URL foto sekolah Anda
 
-        <!-- About Section -->
-        <section id="tentang" class="py-16 md:py-24 bg-white">
-            <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
-                <div class="md:w-1/2">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Tentang SMA AZMANAWADI</h2>
-                    <p class="mt-4 text-gray-600 leading-relaxed">
-                        SMA AZMANAWADI berkomitmen untuk memberikan pendidikan berkualitas yang tidak hanya berfokus pada kurikulum akademik, tetapi juga pada pengembangan karakter dan keterampilan hidup. Terletak di jantung Lombok Timur, sekolah kami adalah tempat ideal bagi siswa untuk tumbuh dan berprestasi.
-                    </p>
-                    <p class="mt-2 text-gray-600 leading-relaxed">
-                        Kami percaya bahwa Bahasa Inggris adalah kunci untuk membuka pintu dunia, sehingga kami mengintegrasikannya ke dalam setiap aspek pembelajaran. Namun, kami juga memastikan siswa mendapatkan fondasi yang kuat di semua mata pelajaran lainnya.
-                    </p>
-                </div>
-                <div class="md:w-1/2 mt-8 md:mt-0">
-                    <!-- Placeholder image -->
-                    <img src="https://placehold.co/600x400/10B981/ffffff?text=SMA+AZMANAWADI" alt="SMA AZMANAWADI school building" class="w-full h-auto object-cover rounded-lg shadow-xl">
-                </div>
-            </div>
-        </section>
+# Konten Ekstrakurikuler
+ekstrakurikuler_subheading: "Kami menawarkan berbagai klub ekstrakurikuler yang dirancang untuk mengembangkan minat dan bakat siswa di luar jam pelajaran."
+extracurriculars:
+  - name: Azma English Club
+    description: "Fokus pada penguatan kemampuan Bahasa Inggris siswa melalui berbagai kegiatan interaktif seperti debat, storytelling, dan public speaking."
+    icon: fas fa-globe
+    color: text-blue-500
+  - name: Welding Club
+    description: "Membekali siswa dengan life skill berharga di bidang pengelasan (welding), membuka peluang karir di masa depan."
+    icon: fas fa-hammer
+    color: text-orange-500
+  - name: Green Forest Club
+    description: "Mengajarkan siswa tentang pembibitan dan pertanian secara praktis, menumbuhkan kepedulian terhadap lingkungan dan agrikultur."
+    icon: fas fa-seedling
+    color: text-green-500
 
-        <!-- Extracurricular Section -->
-        <section id="ekstrakurikuler" class="py-16 md:py-24 bg-gray-100">
-            <div class="container mx-auto px-4 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Ekstrakurikuler Unggulan</h2>
-                <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-                    Kami menawarkan berbagai klub ekstrakurikuler yang dirancang untuk mengembangkan minat dan bakat siswa di luar jam pelajaran.
-                </p>
+# Informasi Kontak
+address_line_1: "Jln. Paok Motong, Dusun Tibu Karang,"
+address_line_2: "Desa Kotaraja, Kec. Sikur, Lombok Timur,"
+address_line_3: "Kode Pos 83662"
+phone: "083831977089"
 
-                <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <!-- Azma English Club Card -->
-                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-                        <div class="text-5xl text-blue-500 mb-4">
-                            <i class="fas fa-globe"></i>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-900">Azma English Club</h3>
-                        <p class="mt-2 text-gray-600">
-                            Fokus pada penguatan kemampuan Bahasa Inggris siswa melalui berbagai kegiatan interaktif seperti debat, _storytelling_, dan _public speaking_.
-                        </p>
-                    </div>
-
-                    <!-- Welding Club Card -->
-                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-                        <div class="text-5xl text-orange-500 mb-4">
-                            <i class="fas fa-hammer"></i>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-900">Welding Club</h3>
-                        <p class="mt-2 text-gray-600">
-                            Membekali siswa dengan _life skill_ berharga di bidang pengelasan (_welding_), membuka peluang karir di masa depan.
-                        </p>
-                    </div>
-
-                    <!-- Green Forest Club Card -->
-                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-                        <div class="text-5xl text-green-500 mb-4">
-                            <i class="fas fa-seedling"></i>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-900">Green Forest Club</h3>
-                        <p class="mt-2 text-gray-600">
-                            Mengajarkan siswa tentang pembibitan dan pertanian secara praktis, menumbuhkan kepedulian terhadap lingkungan dan agrikultur.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="kontak" class="py-16 md:py-24 bg-white">
-            <div class="container mx-auto px-4 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Hubungi Kami</h2>
-                <p class="mt-4 text-lg text-gray-600">
-                    Kami siap menjawab pertanyaan Anda. Jangan ragu untuk menghubungi kami.
-                </p>
-
-                <div class="mt-8 flex flex-col md:flex-row justify-center items-center gap-8">
-                    <div class="flex items-center space-x-4">
-                        <div class="bg-green-600 text-white p-4 rounded-full">
-                            <i class="fas fa-map-marker-alt text-xl"></i>
-                        </div>
-                        <span class="text-gray-700 text-lg text-left">
-                            Jln. Paok Motong, Dusun Tibu Karang, <br> Desa Kotaraja, Kec. Sikur, Lombok Timur, <br> Kode Pos 83662
-                        </span>
-                    </div>
-                    <div class="flex items-center space-x-4">
-                        <div class="bg-green-600 text-white p-4 rounded-full">
-                            <i class="fas fa-phone text-xl"></i>
-                        </div>
-                        <span class="text-gray-700 text-lg">083831977089</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-8">
-        <div class="container mx-auto px-4 text-center">
-            <p>&copy; 2025 SMA AZMANAWADI. Semua Hak Cipta Dilindungi.</p>
-        </div>
-    </footer>
-
-    <!-- JavaScript untuk mobile menu -->
-    <script>
-        const menuButton = document.getElementById('menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        menuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
-    </script>
-</body>
-</html>
