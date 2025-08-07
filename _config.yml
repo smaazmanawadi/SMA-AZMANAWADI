@@ -1,0 +1,35 @@
+# Judul Website
+title: SMA AZMANAWADI - Pendidikan Terdepan di Lombok
+
+# Konten Halaman Depan (Hero Section)
+hero_heading: "Selamat Datang di <span class='text-green-600'>SMA AZMANAWADI</span>"
+hero_subheading: "Mencetak generasi cerdas, berkarakter, dan berdaya saing global melalui penguatan Bahasa Inggris dan keterampilan praktis."
+
+# Konten Tentang Kami (About Section)
+about_heading: "Tentang SMA AZMANAWADI"
+about_text_1: "SMA AZMANAWADI berkomitmen untuk memberikan pendidikan berkualitas yang tidak hanya berfokus pada kurikulum akademik, tetapi juga pada pengembangan karakter dan keterampilan hidup. Terletak di jantung Lombok Timur, sekolah kami adalah tempat ideal bagi siswa untuk tumbuh dan berprestasi."
+about_text_2: "Kami percaya bahwa Bahasa Inggris adalah kunci untuk membuka pintu dunia, sehingga kami mengintegrasikannya ke dalam setiap aspek pembelajaran. Namun, kami juga memastikan siswa mendapatkan fondasi yang kuat di semua mata pelajaran lainnya."
+about_image: "https://placehold.co/600x400/10B981/ffffff?text=SMA+AZMANAWADI" # Ganti URL ini dengan URL foto sekolah Anda
+
+# Konten Ekstrakurikuler
+ekstrakurikuler_subheading: "Kami menawarkan berbagai klub ekstrakurikuler yang dirancang untuk mengembangkan minat dan bakat siswa di luar jam pelajaran."
+extracurriculars:
+  - name: Azma English Club
+    description: "Fokus pada penguatan kemampuan Bahasa Inggris siswa melalui berbagai kegiatan interaktif seperti debat, storytelling, dan public speaking."
+    icon: fas fa-globe
+    color: text-blue-500
+  - name: Welding Club
+    description: "Membekali siswa dengan life skill berharga di bidang pengelasan (welding), membuka peluang karir di masa depan."
+    icon: fas fa-hammer
+    color: text-orange-500
+  - name: Green Forest Club
+    description: "Mengajarkan siswa tentang pembibitan dan pertanian secara praktis, menumbuhkan kepedulian terhadap lingkungan dan agrikultur."
+    icon: fas fa-seedling
+    color: text-green-500
+
+# Informasi Kontak
+address_line_1: "Jln. Paok Motong, Dusun Tibu Karang,"
+address_line_2: "Desa Kotaraja, Kec. Sikur, Lombok Timur,"
+address_line_3: "Kode Pos 83662"
+phone: "083831977089"
+
